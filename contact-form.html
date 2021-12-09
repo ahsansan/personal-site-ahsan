@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Personal Web - Contact Form</title>
+	<link rel="stylesheet" href="style/style.css">
+</head>
+<body>
+	<nav>
+		<div class="left">
+			<img src="images/logo-kecil.png">
+			<ul>
+				<li><a href="index.html">Home</a></li>
+				<li><a href="blog.html">Blog</a></li>
+			</ul>
+		</div>
+		<div class="right"><a href="contact-form.html">Contact Me</a></div>
+	</nav>
+<div class="container-form">
+	<div class="section-form">
+		<form class="mainform">
+			<div class="individual-form">
+				<label for="name" class="labelan">Name :</label>
+				<input type="text" id="name" class="inputan" placeholder="Input your name here">
+			</div>
+			<div class="individual-form">
+				<label for="email" class="labelan">Email :</label>
+				<input type="email" id="email" class="inputan" placeholder="Input your email here">
+			</div>
+			<div class="individual-form">
+				<label for="phonenumber" class="labelan">Phone Number :</label>
+				<input type="text" id="phonenumber" class="inputan" placeholder="Input your phone number here">
+			</div>
+			<div class="individual-form">
+				<label for="pendidikan" class="labelan">Education :</label>
+				<select id="pendidikan" class="inputan">
+					<option>Junior</option>
+					<option>Senior</option>
+					<option>University</option>
+				</select>
+			</div>
+			<div class="individual-form">
+				<label class="labelan">Skill :</label><br/><br/>
+				<input type="checkbox" id="pilihan1" value="HTML">
+				<label for="pilihan1"> HTML</label><br/>
+				<input type="checkbox" id="pilihan2" value="CSS">
+				<label for="pilihan2"> CSS</label><br/>
+				<input type="checkbox" id="pilihan3" value="JavaScript">
+				<label for="pilihan3"> JavaScript</label><br/>
+			</div>
+			<div class="individual-form">
+				<label for="alamat" class="labelan">Adress :</label>
+				<textarea id="alamat" class="textarea" maxlength="200" placeholder="Input your address here"></textarea>
+			</div>
+			<div class="individual-form">
+				<button class="buttonform"><img src="images/submit.png" style="width:25px;"> Submit</button>
+			</div>
+		</form>
+	</div>
+</div>
+</body>
+</html>
