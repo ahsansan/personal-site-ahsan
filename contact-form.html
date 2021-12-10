@@ -5,6 +5,7 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<title>Personal Web - Contact Form</title>
 	<link rel="stylesheet" href="style/style.css">
+	<script type="text/javascript" src="script/form.js"></script>
 </head>
 <body>
 	<nav>
@@ -19,9 +20,6 @@
 			<a href="contact-form.html"><button>Contact Me</button></a>
 		</div>
 	</nav>
-<div class="textform">
-	<h3>Input Your Data</h3>
-</div>
 <div class="container-form">
 	<div class="section-form">
 		<form class="mainform">
@@ -38,28 +36,19 @@
 				<input type="text" id="phonenumber" class="inputan" placeholder="Input your phone number here">
 			</div>
 			<div class="individual-form">
-				<label for="pendidikan" class="labelan">Education :</label>
-				<select id="pendidikan" class="inputan">
-					<option>Junior</option>
-					<option>Senior</option>
-					<option>University</option>
+				<label for="subject" class="labelan">Subject :</label>
+				<select id="subject" class="inputan">
+					<option>I am hiring</option>
+					<option>I miss you</option>
+					<option>I will to talk</option>
 				</select>
 			</div>
 			<div class="individual-form">
-				<label class="labelan">Skill :</label><br/><br/>
-				<input type="checkbox" id="pilihan1" value="HTML">
-				<label for="pilihan1"> HTML</label><br/>
-				<input type="checkbox" id="pilihan2" value="CSS">
-				<label for="pilihan2"> CSS</label><br/>
-				<input type="checkbox" id="pilihan3" value="JavaScript">
-				<label for="pilihan3"> JavaScript</label><br/>
+				<label for="messege" class="labelan">Subject :</label>
+				<textarea id="messege" class="textarea" maxlength="200" placeholder="Apa yang kau mau"></textarea>
 			</div>
 			<div class="individual-form">
-				<label for="alamat" class="labelan">Adress :</label>
-				<textarea id="alamat" class="textarea" maxlength="200" placeholder="Input your address here"></textarea>
-			</div>
-			<div class="individual-form">
-				<button class="buttonform"><img src="images/submit.png" style="width:17px;"> Submit</button>
+				<button class="buttonform" type="button" onclick="submitData()"><img src="images/submit.png" style="width:17px;"> Submit</button>
 			</div>
 		</form>
 	</div>

@@ -145,18 +145,11 @@ nav .right button:hover {
 
 /* Form */
 
-.textform {
-	text-align: center;
-	font-family: Helvetica;
-	font-size: 25px;
-	padding: 10px;
-}
-
 .container-form {
 	height: 93vh;
 	display: flex;
 	justify-content: center;
-	margin-top: 25px;
+	padding-top: 25px;
 }
 
 .section-form {
@@ -195,7 +188,7 @@ nav .right button:hover {
 }
 
 .container-form .textarea {
-	resize:none; height: 50px;
+	resize:none; height: 100px;
 	border: 0.5px solid #888888;
 	border-radius: 5px;
 	width: 100%;
