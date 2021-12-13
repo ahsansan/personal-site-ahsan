@@ -10,7 +10,7 @@ body {
 	margin:  auto;
 	border: 1px solid #888888; 
 	border-radius: 15px; 
-	box-shadow: 5px 10px 18px #888888; 
+	box-shadow: 5px 10px 18px #888888;
 	width: 500px; 
 	padding: 15px;
 }
@@ -92,7 +92,7 @@ nav .right button:hover {
 .section .left .box-card {
 	border: 1px solid #888888; 
 	border-radius: 15px; 
-	box-shadow: 5px 10px 18px #888888; 
+	box-shadow: 5px 10px 18px #888888; /*horizontal vertical lebar penyebaran warna */
 	width: 90%; 
 	padding: 15px;
 }
@@ -152,14 +152,14 @@ nav .right button:hover {
 	padding-top: 25px;
 }
 
-.section-form {
+.container-form .section-form {
 	width: 80%;
 	display: flex;
 	justify-content: center;
 	align-items: center;
 }
 
-.container-form .section-form .mainform {
+.container-form .mainform {
 	background-color: #e6e6e6;
 	padding: 20px;
 	width: 400px;

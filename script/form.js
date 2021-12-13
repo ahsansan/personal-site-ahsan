@@ -21,7 +21,7 @@ function submitData(){
 		alert('Form alamat harus di isi')
 	} */
 
-	if (name == '' || email == '' || phonenumber == '' || subject == ''){
+	if (name == '' || email == '' || phonenumber == '' || messege == ''){
 		return alert('Tolong isilah semua data')
 	}
 
