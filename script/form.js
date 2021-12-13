@@ -5,22 +5,6 @@ function submitData(){
 	let subject = document.getElementById('subject').value
 	let messege = document.getElementById('messege').value
 
-	/* if (name == ''){
-		alert('Form name harus di isi')
-	}
-
-	if (email == ''){
-		alert('Form email harus di isi')
-	}
-
-	if (phonenumber == ''){
-		alert('Form phonenumber harus di isi')
-	}
-
-	if (subject == ''){
-		alert('Form alamat harus di isi')
-	} */
-
 	if (name == '' || email == '' || phonenumber == '' || messege == ''){
 		return alert('Tolong isilah semua data')
 	}
@@ -77,3 +61,19 @@ function penjumlahan (bil1, bil2){
 }
 
 penjumlahan(22,11) */
+
+	/* if (name == ''){
+		alert('Form name harus di isi')
+	}
+
+	if (email == ''){
+		alert('Form email harus di isi')
+	}
+
+	if (phonenumber == ''){
+		alert('Form phonenumber harus di isi')
+	}
+
+	if (subject == ''){
+		alert('Form alamat harus di isi')
+	} */

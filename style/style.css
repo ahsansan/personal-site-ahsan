@@ -51,11 +51,11 @@ nav .right {
 	align-items: center;
 }
 
-nav .right button {
+nav .right a {
 	text-decoration: none;
 	border: none;
 	font-weight: 500;
-	padding: 10px;
+	padding: 8px 15px;
 	background-color: #f04c34;
 	color: white;
 	border-radius: 10px;
@@ -63,7 +63,7 @@ nav .right button {
 	cursor: pointer;
 }
 
-nav .right button:hover {
+nav .right a:hover {
 	background-color: #be260e;
 	color: white;
 }
@@ -180,6 +180,16 @@ nav .right button:hover {
 	padding: 10px;
 	box-sizing: border-box;
 }
+
+.container-form ::placeholder , option , select {
+	font-family: sans-serif;
+	font-style: italic;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;}
 
 .container-form .labelan {
 	font-size: 17px;
