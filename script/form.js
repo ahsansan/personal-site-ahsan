@@ -22,12 +22,12 @@ function submitData(){
 	} */
 
 	if (name == '' || email == '' || phonenumber == '' || subject == ''){
-		alert('Tolong isilah semua data')
+		return alert('Tolong isilah semua data')
 	}
 
 	let emailReceiver = 'sansinochi@gmail.com'
 	let anchor = document.createElement('a')
-	anchor.href = `mailto:${emailReceiver}?subject=${subject}&body=Halo my name ${name}, ${subject}`
+	anchor.href = `mailto:${emailReceiver}?subject=${subject}&body=Halo my name ${name}, ${messege}`
 	anchor.click()
 
 	/* console.log(name)
