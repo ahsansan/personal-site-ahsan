@@ -72,6 +72,7 @@ nav .right a:hover {
 	justify-content: center;
 	align-items: center;
 	margin-top: 25px;
+	flex-wrap: wrap;
 }
 
 .section {
@@ -146,6 +147,7 @@ nav .right a:hover {
 	display: flex;
 	justify-content: center;
 	padding-top: 40px;
+	flex-wrap: wrap;
 }
 
 .container-form .section-form {
@@ -270,6 +272,7 @@ input::-webkit-inner-spin-button {
   border: 1px solid #c4c4c4;
   border-radius: 8px;
   cursor: pointer;
+  box-sizing: border-box;
 }
 
 .blog-form form .input-blog-image-group label p {
